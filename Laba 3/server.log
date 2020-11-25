@@ -1,0 +1,14 @@
+INFO 2020-11-25 18:41:44,301 root : Сервер доступний. Час на сервері: 25/11/2020 16:41:44
+INFO 2020-11-25 18:41:44,302 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-25 18:41:44,302 root : Відповідь сервера містить наступні поля:
+INFO 2020-11-25 18:41:44,302 root : Ключ: date, Значення: 25/11/2020 16:41:44
+INFO 2020-11-25 18:41:44,302 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-11-25 18:41:44,302 root : Ключ: server_info, Значення: ['Linux', 'bodiq-VirtualBox', '5.8.0-29-generic', '#31-Ubuntu SMP Fri Nov 6 12:37:59 UTC 2020', 'x86_64']
+INFO 2020-11-25 18:41:44,302 root : Ключ: client_info, Значення: python-requests/2.23.0
+INFO 2020-11-25 18:42:44,368 root : Сервер доступний. Час на сервері: 25/11/2020 16:42:44
+INFO 2020-11-25 18:42:44,369 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-25 18:42:44,369 root : Відповідь сервера містить наступні поля:
+INFO 2020-11-25 18:42:44,370 root : Ключ: date, Значення: 25/11/2020 16:42:44
+INFO 2020-11-25 18:42:44,370 root : Ключ: current_page, Значення: http://localhost:8000/health/
+INFO 2020-11-25 18:42:44,370 root : Ключ: server_info, Значення: ['Linux', 'bodiq-VirtualBox', '5.8.0-29-generic', '#31-Ubuntu SMP Fri Nov 6 12:37:59 UTC 2020', 'x86_64']
+INFO 2020-11-25 18:42:44,370 root : Ключ: client_info, Значення: python-requests/2.23.0
