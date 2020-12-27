@@ -13,11 +13,11 @@ RUN apt-get install git -y && pip3 install pipenv
 WORKDIR /lab
 
 # Завантажуємо файли з Git
-RUN git clone https://github.com/bodia1132/devops_course.git
+RUN git clone https://github.com/bodia1132/Labs
 
 # Створюємо остаточну робочу папку з Веб-сайтом та копіюємо туди файли
 WORKDIR /app
-RUN cp -r /lab/devops_course/lab3/* .
+RUN cp -r /lab/Labs/laba3/* .
 
 # Інсталюємо всі залежності
 RUN pipenv install 
