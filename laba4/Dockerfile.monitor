@@ -22,4 +22,4 @@ RUN cp -r /lab/devops_course/lab3/* .
 # Інсталюємо всі залежності
 RUN pipenv install 
 
-CMD ["pipenv", "run", "python", "monitoring.py"]
+CMD ["pipenv", "run", "python3", "monitoring.py"]
