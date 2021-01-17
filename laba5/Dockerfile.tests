@@ -7,18 +7,13 @@ RUN apk update \
     && apk add git \
     && pip install pipenv
 
-WORKDIR /app
+WORKDIR /tests
 
 # Копіюємо файл із списком пакетів які нам потрібно інсталювати
-COPY my_app/requirements.txt ./
+COPY tests/requirements.txt ./
 RUN pipenv install -r requirements.txt
 
-# Копіюємо наш додаток
-COPY my_app/ ./
+# Копіюємо нашого проекту
+COPY tests/ ./
 
-# Створюємо папку для логів
-RUN mkdir logs
-
-EXPOSE 5000
-
-ENTRYPOINT pipenv run python app.py
+ENTRYPOINT pipenv run pytest test_app.py --url http://app:5000
